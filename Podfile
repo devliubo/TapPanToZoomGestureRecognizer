@@ -1,3 +1,8 @@
 platform :ios, '7.0'
 
-pod 'AMap2DMap', '~>3.3.0'  #2D地图SDK
+abstract_target 'TapPanToZoomGestureRecognizer_Base' do
+  pod 'AMap2DMap', '~>4.0'  #2D地图SDK
+  
+  target 'TapPanToZoomGestureRecognizer'
+  target 'TapPanToZoomGestureRecognizer_Swift'
+end

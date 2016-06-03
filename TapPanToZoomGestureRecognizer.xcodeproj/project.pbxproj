@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22B6ECB2C995CBECF95E1DCA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C79485A1621AD55A01E04A /* libPods.a */; };
 		3A90B9DD1CE5845B00AE1E3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A90B9DC1CE5845B00AE1E3C /* main.m */; };
 		3A90B9E01CE5845B00AE1E3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A90B9DF1CE5845B00AE1E3C /* AppDelegate.m */; };
 		3A90B9E31CE5845B00AE1E3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A90B9E21CE5845B00AE1E3C /* ViewController.m */; };
@@ -15,11 +14,17 @@
 		3A90B9E81CE5845B00AE1E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A90B9E71CE5845B00AE1E3C /* Assets.xcassets */; };
 		3A90B9EB1CE5845B00AE1E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A90B9E91CE5845B00AE1E3C /* LaunchScreen.storyboard */; };
 		3A90B9F61CE5B20100AE1E3C /* TapPanToZoomGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A90B9F51CE5B20100AE1E3C /* TapPanToZoomGestureRecognizer.m */; };
+		3AE241A41CFF455F00AECBD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE241A31CFF455F00AECBD9 /* AppDelegate.swift */; };
+		3AE241A61CFF455F00AECBD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE241A51CFF455F00AECBD9 /* ViewController.swift */; };
+		3AE241A91CFF455F00AECBD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE241A71CFF455F00AECBD9 /* Main.storyboard */; };
+		3AE241AB1CFF455F00AECBD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE241AA1CFF455F00AECBD9 /* Assets.xcassets */; };
+		3AE241AE1CFF455F00AECBD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE241AC1CFF455F00AECBD9 /* LaunchScreen.storyboard */; };
+		3AE241B61CFF457D00AECBD9 /* TapPanToZoomGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE241B41CFF457700AECBD9 /* TapPanToZoomGestureRecognizer.swift */; };
+		90E8B3716FFC301B7CF4E866 /* libPods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B311A6B433CE9396B728D7EE /* libPods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer.a */; };
+		AE219570D585EA1C9B9932C9 /* libPods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer_Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD02C3BC33800667928B17BA /* libPods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer_Swift.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00C79485A1621AD55A01E04A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1863416074304D3B1B02843B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		3A90B9D81CE5845B00AE1E3C /* TapPanToZoomGestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapPanToZoomGestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A90B9DC1CE5845B00AE1E3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3A90B9DE1CE5845B00AE1E3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -32,7 +37,24 @@
 		3A90B9EC1CE5845B00AE1E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A90B9F41CE5B20100AE1E3C /* TapPanToZoomGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapPanToZoomGestureRecognizer.h; sourceTree = "<group>"; };
 		3A90B9F51CE5B20100AE1E3C /* TapPanToZoomGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapPanToZoomGestureRecognizer.m; sourceTree = "<group>"; };
-		9854A32E302D02515E430697 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3AE241A11CFF455F00AECBD9 /* TapPanToZoomGestureRecognizer_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapPanToZoomGestureRecognizer_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE241A31CFF455F00AECBD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AE241A51CFF455F00AECBD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AE241A81CFF455F00AECBD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AE241AA1CFF455F00AECBD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AE241AD1CFF455F00AECBD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AE241AF1CFF455F00AECBD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AE241B41CFF457700AECBD9 /* TapPanToZoomGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapPanToZoomGestureRecognizer.swift; sourceTree = "<group>"; };
+		3AE241B71CFF45B700AECBD9 /* TapPanToZoomGestureRecognizer-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TapPanToZoomGestureRecognizer-Bridging-Header.h"; sourceTree = "<group>"; };
+		4ACFA80CE59E17B18A0D8199 /* Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer/Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer.debug.xcconfig"; sourceTree = "<group>"; };
+		6145B556DF59718B751F4C3D /* Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer_Swift/Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer_Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		8232356DA0C5C25399EEECC0 /* Pods-TapPanToZoomGestureRecognizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapPanToZoomGestureRecognizer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TapPanToZoomGestureRecognizer/Pods-TapPanToZoomGestureRecognizer.debug.xcconfig"; sourceTree = "<group>"; };
+		A37EB7D62012671A6F64828B /* libPods-TapPanToZoomGestureRecognizer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TapPanToZoomGestureRecognizer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1A90708D9C0B747058251F /* Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer_Swift/Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer_Swift.release.xcconfig"; sourceTree = "<group>"; };
+		B311A6B433CE9396B728D7EE /* libPods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD02C3BC33800667928B17BA /* libPods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer_Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer_Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA28336D083DFEB6918E5B0 /* Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer.release.xcconfig"; path = "Pods/Target Support Files/Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer/Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer.release.xcconfig"; sourceTree = "<group>"; };
+		F895D85DAAF7DE2B92F5E607 /* Pods-TapPanToZoomGestureRecognizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapPanToZoomGestureRecognizer.release.xcconfig"; path = "Pods/Target Support Files/Pods-TapPanToZoomGestureRecognizer/Pods-TapPanToZoomGestureRecognizer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,17 +62,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22B6ECB2C995CBECF95E1DCA /* libPods.a in Frameworks */,
+				90E8B3716FFC301B7CF4E866 /* libPods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE2419E1CFF455F00AECBD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE219570D585EA1C9B9932C9 /* libPods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer_Swift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3137719EFD23959717881272 /* Frameworks */ = {
+		2FE071D5C4BFFEAFD6A1C0DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				00C79485A1621AD55A01E04A /* libPods.a */,
+				A37EB7D62012671A6F64828B /* libPods-TapPanToZoomGestureRecognizer.a */,
+				B311A6B433CE9396B728D7EE /* libPods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer.a */,
+				DD02C3BC33800667928B17BA /* libPods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer_Swift.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -60,9 +92,10 @@
 			children = (
 				3A90B9F31CE5B20100AE1E3C /* TapPanToZoomGestureRecognizerSource */,
 				3A90B9DA1CE5845B00AE1E3C /* TapPanToZoomGestureRecognizer */,
+				3AE241A21CFF455F00AECBD9 /* TapPanToZoomGestureRecognizer_Swift */,
 				3A90B9D91CE5845B00AE1E3C /* Products */,
-				A536ACF33C617FFA7AD9574E /* Pods */,
-				3137719EFD23959717881272 /* Frameworks */,
+				C3A8D58AA56FEB13C0A727C5 /* Pods */,
+				2FE071D5C4BFFEAFD6A1C0DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				3A90B9D81CE5845B00AE1E3C /* TapPanToZoomGestureRecognizer.app */,
+				3AE241A11CFF455F00AECBD9 /* TapPanToZoomGestureRecognizer_Swift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,15 +137,34 @@
 			children = (
 				3A90B9F41CE5B20100AE1E3C /* TapPanToZoomGestureRecognizer.h */,
 				3A90B9F51CE5B20100AE1E3C /* TapPanToZoomGestureRecognizer.m */,
+				3AE241B41CFF457700AECBD9 /* TapPanToZoomGestureRecognizer.swift */,
 			);
 			path = TapPanToZoomGestureRecognizerSource;
 			sourceTree = "<group>";
 		};
-		A536ACF33C617FFA7AD9574E /* Pods */ = {
+		3AE241A21CFF455F00AECBD9 /* TapPanToZoomGestureRecognizer_Swift */ = {
 			isa = PBXGroup;
 			children = (
-				1863416074304D3B1B02843B /* Pods.debug.xcconfig */,
-				9854A32E302D02515E430697 /* Pods.release.xcconfig */,
+				3AE241B71CFF45B700AECBD9 /* TapPanToZoomGestureRecognizer-Bridging-Header.h */,
+				3AE241A31CFF455F00AECBD9 /* AppDelegate.swift */,
+				3AE241A51CFF455F00AECBD9 /* ViewController.swift */,
+				3AE241A71CFF455F00AECBD9 /* Main.storyboard */,
+				3AE241AA1CFF455F00AECBD9 /* Assets.xcassets */,
+				3AE241AC1CFF455F00AECBD9 /* LaunchScreen.storyboard */,
+				3AE241AF1CFF455F00AECBD9 /* Info.plist */,
+			);
+			path = TapPanToZoomGestureRecognizer_Swift;
+			sourceTree = "<group>";
+		};
+		C3A8D58AA56FEB13C0A727C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8232356DA0C5C25399EEECC0 /* Pods-TapPanToZoomGestureRecognizer.debug.xcconfig */,
+				F895D85DAAF7DE2B92F5E607 /* Pods-TapPanToZoomGestureRecognizer.release.xcconfig */,
+				4ACFA80CE59E17B18A0D8199 /* Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer.debug.xcconfig */,
+				DEA28336D083DFEB6918E5B0 /* Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer.release.xcconfig */,
+				6145B556DF59718B751F4C3D /* Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer_Swift.debug.xcconfig */,
+				AB1A90708D9C0B747058251F /* Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer_Swift.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -123,12 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A90B9EF1CE5845B00AE1E3C /* Build configuration list for PBXNativeTarget "TapPanToZoomGestureRecognizer" */;
 			buildPhases = (
-				15790D1088D146438575BDBE /* Check Pods Manifest.lock */,
+				DECFAFDA51A7ECD63763E8D8 /* 📦 Check Pods Manifest.lock */,
 				3A90B9D41CE5845B00AE1E3C /* Sources */,
 				3A90B9D51CE5845B00AE1E3C /* Frameworks */,
 				3A90B9D61CE5845B00AE1E3C /* Resources */,
-				25B00DC3A21767D69E6A3077 /* Embed Pods Frameworks */,
-				CB09328F138B81B01409560F /* Copy Pods Resources */,
+				D6C647DF3E5B764BD5307A0C /* 📦 Embed Pods Frameworks */,
+				1400AD04E3271E576A02188B /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,15 +192,39 @@
 			productReference = 3A90B9D81CE5845B00AE1E3C /* TapPanToZoomGestureRecognizer.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3AE241A01CFF455F00AECBD9 /* TapPanToZoomGestureRecognizer_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AE241B21CFF455F00AECBD9 /* Build configuration list for PBXNativeTarget "TapPanToZoomGestureRecognizer_Swift" */;
+			buildPhases = (
+				5DC78370B5EB1690E2833CC2 /* 📦 Check Pods Manifest.lock */,
+				3AE2419D1CFF455F00AECBD9 /* Sources */,
+				3AE2419E1CFF455F00AECBD9 /* Frameworks */,
+				3AE2419F1CFF455F00AECBD9 /* Resources */,
+				0301AAE55EA8822FB8406BFF /* 📦 Embed Pods Frameworks */,
+				7768CB524A47E74E246DF585 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapPanToZoomGestureRecognizer_Swift;
+			productName = TapPanToZoomGestureRecognizer_Swift;
+			productReference = 3AE241A11CFF455F00AECBD9 /* TapPanToZoomGestureRecognizer_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		3A90B9D01CE5845B00AE1E3C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				TargetAttributes = {
 					3A90B9D71CE5845B00AE1E3C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					3AE241A01CFF455F00AECBD9 = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
@@ -166,6 +243,7 @@
 			projectRoot = "";
 			targets = (
 				3A90B9D71CE5845B00AE1E3C /* TapPanToZoomGestureRecognizer */,
+				3AE241A01CFF455F00AECBD9 /* TapPanToZoomGestureRecognizer_Swift */,
 			);
 		};
 /* End PBXProject section */
@@ -181,17 +259,57 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3AE2419F1CFF455F00AECBD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE241AE1CFF455F00AECBD9 /* LaunchScreen.storyboard in Resources */,
+				3AE241AB1CFF455F00AECBD9 /* Assets.xcassets in Resources */,
+				3AE241A91CFF455F00AECBD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		15790D1088D146438575BDBE /* Check Pods Manifest.lock */ = {
+		0301AAE55EA8822FB8406BFF /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer_Swift/Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer_Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1400AD04E3271E576A02188B /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer/Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DC78370B5EB1690E2833CC2 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,34 +317,49 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		25B00DC3A21767D69E6A3077 /* Embed Pods Frameworks */ = {
+		7768CB524A47E74E246DF585 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer_Swift/Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer_Swift-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CB09328F138B81B01409560F /* Copy Pods Resources */ = {
+		D6C647DF3E5B764BD5307A0C /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer/Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DECFAFDA51A7ECD63763E8D8 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -240,6 +373,16 @@
 				3A90B9F61CE5B20100AE1E3C /* TapPanToZoomGestureRecognizer.m in Sources */,
 				3A90B9E01CE5845B00AE1E3C /* AppDelegate.m in Sources */,
 				3A90B9DD1CE5845B00AE1E3C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AE2419D1CFF455F00AECBD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE241A61CFF455F00AECBD9 /* ViewController.swift in Sources */,
+				3AE241B61CFF457D00AECBD9 /* TapPanToZoomGestureRecognizer.swift in Sources */,
+				3AE241A41CFF455F00AECBD9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +401,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				3A90B9EA1CE5845B00AE1E3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3AE241A71CFF455F00AECBD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AE241A81CFF455F00AECBD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AE241AC1CFF455F00AECBD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AE241AD1CFF455F00AECBD9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -349,27 +508,61 @@
 		};
 		3A90B9F01CE5845B00AE1E3C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1863416074304D3B1B02843B /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 4ACFA80CE59E17B18A0D8199 /* Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TapPanToZoomGestureRecognizer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devliubo.TapPanToZoomGestureRecognizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TapPanToZoomGestureRecognizerSource/TapPanToZoomGestureRecognizer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		3A90B9F11CE5845B00AE1E3C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9854A32E302D02515E430697 /* Pods.release.xcconfig */;
+			baseConfigurationReference = DEA28336D083DFEB6918E5B0 /* Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TapPanToZoomGestureRecognizer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devliubo.TapPanToZoomGestureRecognizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TapPanToZoomGestureRecognizerSource/TapPanToZoomGestureRecognizer-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		3AE241B01CFF455F00AECBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6145B556DF59718B751F4C3D /* Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer_Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TapPanToZoomGestureRecognizer_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devliubo.TapPanToZoomGestureRecognizer-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./TapPanToZoomGestureRecognizer_Swift/TapPanToZoomGestureRecognizer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AE241B11CFF455F00AECBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB1A90708D9C0B747058251F /* Pods-TapPanToZoomGestureRecognizer_Base-TapPanToZoomGestureRecognizer_Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TapPanToZoomGestureRecognizer_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devliubo.TapPanToZoomGestureRecognizer-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./TapPanToZoomGestureRecognizer_Swift/TapPanToZoomGestureRecognizer-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -390,6 +583,15 @@
 			buildConfigurations = (
 				3A90B9F01CE5845B00AE1E3C /* Debug */,
 				3A90B9F11CE5845B00AE1E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AE241B21CFF455F00AECBD9 /* Build configuration list for PBXNativeTarget "TapPanToZoomGestureRecognizer_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE241B01CFF455F00AECBD9 /* Debug */,
+				3AE241B11CFF455F00AECBD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
